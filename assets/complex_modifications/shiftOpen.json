@@ -1,0 +1,100 @@
+{
+	"title": "Title for the list of rules/complex modifications.",
+	"rules": [
+		{
+			"description": "Open Firefox",
+			"manipulators": [
+				{
+					"type": "basic",
+					"from": {
+						"key_code": "f",
+						"modifiers": {
+							"mandatory": ["right_shift"]
+						}
+					},
+					"to": [
+						{
+							"shell_command": "open -a \"Firefox\""
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": "Open Spotify",
+			"manipulators": [
+				{
+					"type": "basic",
+					"from": {
+						"key_code": "s",
+						"modifiers": {
+							"mandatory": ["right_shift"]
+						}
+					},
+					"to": [
+						{
+							"shell_command": "open -a \"Spotify\""
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": "Open Terminal",
+			"manipulators": [
+				{
+					"type": "basic",
+					"from": {
+						"key_code": "t",
+						"modifiers": {
+							"mandatory": ["right_shift"]
+						}
+					},
+					"to": [
+						{
+							"shell_command": "open -a \"/System/Applications/Utilities/Terminal.app\""
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": "Open Chrome",
+			"manipulators": [
+				{
+					"type": "basic",
+					"from": {
+						"key_code": "c",
+						"modifiers": {
+							"mandatory": ["right_shift"]
+						}
+					},
+					"to": [
+						{
+							"shell_command": "open -a \"Google Chrome\""
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": "Open Brave",
+			"manipulators": [
+				{
+					"type": "basic",
+					"from": {
+						"key_code": "b",
+						"modifiers": {
+							"mandatory": ["right_shift"]
+						}
+					},
+					"to": [
+						{
+							"shell_command": "open -a \"Brave Browser\""
+						}
+					]
+				}
+			]
+		}
+	]
+}
