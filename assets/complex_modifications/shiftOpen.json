@@ -2,6 +2,101 @@
 	"title": "Title for the list of rules/complex modifications.",
 	"rules": [
 		{
+			"description": "Open Outlook",
+			"manipulators": [
+				{
+					"type": "basic",
+					"from": {
+						"key_code": "o",
+						"modifiers": {
+							"mandatory": ["right_shift"]
+						}
+					},
+					"to": [
+						{
+							"shell_command": "open -a \"Microsoft Outlook\""
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": "Open VS Code",
+			"manipulators": [
+				{
+					"type": "basic",
+					"from": {
+						"key_code": "v",
+						"modifiers": {
+							"mandatory": ["right_shift"]
+						}
+					},
+					"to": [
+						{
+							"shell_command": "open -a \"Visual Studio Code\""
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": "Open Mattermost",
+			"manipulators": [
+				{
+					"type": "basic",
+					"from": {
+						"key_code": "m",
+						"modifiers": {
+							"mandatory": ["right_shift"]
+						}
+					},
+					"to": [
+						{
+							"shell_command": "open -a \"Mattermost\""
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": "Open IntelliJ",
+			"manipulators": [
+				{
+					"type": "basic",
+					"from": {
+						"key_code": "i",
+						"modifiers": {
+							"mandatory": ["right_shift"]
+						}
+					},
+					"to": [
+						{
+							"shell_command": "open -a \"IntelliJ IDEA CE\""
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": "Open Teams",
+			"manipulators": [
+				{
+					"type": "basic",
+					"from": {
+						"key_code": "t",
+						"modifiers": {
+							"mandatory": ["right_shift"]
+						}
+					},
+					"to": [
+						{
+							"shell_command": "open -a \"Microsoft Teams\""
+						}
+					]
+				}
+			]
+		},
+		{
 			"description": "Open Firefox",
 			"manipulators": [
 				{

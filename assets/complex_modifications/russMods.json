@@ -2,35 +2,6 @@
 	"title": "Modes made by Russell",
 	"rules": [
 		{
-			"description": "superMode",
-			"manipulators": [
-				{
-					"type": "basic",
-					"from": {
-						"key_code": "spacebar",
-						"modifiers": {
-							"optional": ["caps_lock"]
-						}
-					},
-					"parameters": {
-						"basic.to_if_alone_timeout_milliseconds": 250,
-						"basic.to_if_held_down_threshold_milliseconds": 250
-					},
-					"to_if_alone": [
-						{
-							"key_code": "spacebar"
-						}
-					],
-					"to_if_held_down": [
-						{
-							"key_code": "left_shift",
-							"modifiers": ["left_control", "left_command", "left_option"]
-						}
-					]
-				}
-			]
-		},
-		{
 			"description": "caps to control/escape",
 			"manipulators": [
 				{
