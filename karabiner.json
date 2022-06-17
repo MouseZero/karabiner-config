@@ -506,27 +506,6 @@
                         ]
                     },
                     {
-                        "description": "Open Teams",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "t",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "right_shift"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a \"Microsoft Teams\""
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
                         "description": "Open IntelliJ",
                         "manipulators": [
                             {
@@ -604,6 +583,27 @@
                                 "to": [
                                     {
                                         "shell_command": "open -a \"Microsoft Outlook\""
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Open Teams",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "q",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "right_shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a \"Microsoft Teams\""
                                     }
                                 ],
                                 "type": "basic"
